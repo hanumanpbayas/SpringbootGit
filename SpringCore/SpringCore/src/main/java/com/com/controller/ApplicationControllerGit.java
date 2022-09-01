@@ -12,4 +12,8 @@ public class ApplicationControllerGit {
     public String sayHello(){
         return "Welcome to github";
     }
+    @GetMapping("/set")
+    public String setService(){
+        return "hello replay to";
+    }
 }
